@@ -24,21 +24,10 @@
 			"command" : "sub_key_value"
 		},
 		{
-			"id" : "del quo",
-			"caption" : "del quotation",
-			"command" : "delete_quo"
-		},
-		{
 			"id" : "out braces",
 			"caption" : "out braces",
 			"command" : "out"
-		},
-		{
-			"id" : "suoyong",
-			"caption" : "suoyong",
-			"command" : "eax"
 		}
-
     ]
 }
 ]
