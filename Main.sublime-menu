@@ -1,0 +1,44 @@
+[
+{
+    "id": "edit",
+    "children":
+    [
+        {
+		    "id" : "Create JSON Format",
+		    "caption" : "Create JSON Format",
+		    "command" : "example"
+		},
+		{
+			"id" : "next cursor",
+			"caption" : "next position",
+			"command" : "tab"
+		},
+		{
+			"id" : "add key value",
+			"caption" : "add key value",
+			"command" : "add_key_value"
+		},
+		{
+			"id" : "sub key value",
+			"caption" : "sub key value",
+			"command" : "sub_key_value"
+		},
+		{
+			"id" : "del quo",
+			"caption" : "del quotation",
+			"command" : "delete_quo"
+		},
+		{
+			"id" : "out braces",
+			"caption" : "out braces",
+			"command" : "out"
+		},
+		{
+			"id" : "suoyong",
+			"caption" : "suoyong",
+			"command" : "eax"
+		}
+
+    ]
+}
+]
