@@ -1,34 +1,22 @@
 [
 { 
 	"keys": ["alt+["],
-	"command": "example"
+	"command": "json_faster_example"
 },
 {
 	"keys": ["alt+tab"],
-	"command": "tab"
+	"command": "json_faster_tab"
 },
 {
 	"keys": ["alt+="],
-	"command": "add_key_value"
+	"command": "json_faster_add_key_value"
 },
 {
 	"keys": ["alt+-"],
-	"command": "sub_key_value"
-},
-{
-	"keys": ["alt+'"],
-	"command": "delete_quo"
+	"command": "json_faster_sub_key_value"
 },
 {
 	"keys": ["alt+]"],
-	"command": "out"
-},
-{
-	"keys": ["alt+|"],
-	"command": "reindent"
-},
-{
-	"keys":["alt+shift+t"],
-	"command":"exa"
+	"command": "json_faster_out"
 }
 ]
