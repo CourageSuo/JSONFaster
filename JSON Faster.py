@@ -6,7 +6,7 @@ INDENT = 2
 OCC = 0
 OFFSET = 0 
 
-class ExampleCommand(sublime_plugin.TextCommand):
+class JsonFasterExampleCommand(sublime_plugin.TextCommand):
 
     def currentCaret(self):
         return self.view.sel()[0].begin()
@@ -46,7 +46,7 @@ class ExampleCommand(sublime_plugin.TextCommand):
         self.view.sel().clear()
         self.view.sel().add(cs)
 
-class TabCommand(sublime_plugin.TextCommand):
+class JsonFasterTabCommand(sublime_plugin.TextCommand):
 
     def currentCaret(self):
         return self.view.sel()[0].begin()
@@ -60,7 +60,7 @@ class TabCommand(sublime_plugin.TextCommand):
         self.view.sel().clear()
         self.view.sel().add(cs)
 
-class addKeyValueCommand(sublime_plugin.TextCommand):
+class JsonFasterAddKeyValueCommand(sublime_plugin.TextCommand):
 
     def currentCaret(self):
         return self.view.sel()[0].begin()
@@ -102,7 +102,7 @@ class addKeyValueCommand(sublime_plugin.TextCommand):
         self.view.sel().clear()
         self.view.sel().add(csa)
 
-class subKeyValueCommand(sublime_plugin.TextCommand):
+class JsonFasterSubKeyValueCommand(sublime_plugin.TextCommand):
 
     def currentCaret(self):
         return self.view.sel()[0].begin()
@@ -143,7 +143,7 @@ class subKeyValueCommand(sublime_plugin.TextCommand):
 #         self.view.erase(edit,fr)
 
        
-class outCommand(sublime_plugin.TextCommand):
+class JsonFasterOutCommand(sublime_plugin.TextCommand):
 
     def currentCaret(self):
         return self.view.sel()[0].begin()
