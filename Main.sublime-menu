@@ -6,27 +6,27 @@
         {
 		    "id" : "Create JSON Format",
 		    "caption" : "Create JSON Format",
-		    "command" : "example"
+		    "command" : "json_faster_example"
 		},
 		{
 			"id" : "next cursor",
 			"caption" : "next position",
-			"command" : "tab"
+			"command" : "json_faster_tab"
 		},
 		{
 			"id" : "add key value",
 			"caption" : "add key value",
-			"command" : "add_key_value"
+			"command" : "json_faster_add_key_value"
 		},
 		{
 			"id" : "sub key value",
 			"caption" : "sub key value",
-			"command" : "sub_key_value"
+			"command" : "json_faster_sub_key_value"
 		},
 		{
 			"id" : "out braces",
 			"caption" : "out braces",
-			"command" : "out"
+			"command" : "json_faster_out"
 		}
     ]
 }
