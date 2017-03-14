@@ -1,6 +1,6 @@
 # JSONFaster
-For editing JSON format more faster.It's very easy to use.
-MyCommandNameCommand:
+For editing JSON format faster.It's very easy to use.
+shortcut and command:
 <br>alt + [ : create standard JSON format
 <br>alt + ] : jump out the current JSON key-value pair
 <br>alt + = : add new JSON key-value pair
